@@ -86,7 +86,7 @@ def authentication():
         'id':'desmondcsc'
     }
 
-    f = open("sample.json")
+    # f = open("sample.json")
 
     s3.Bucket(bucketname).put_object(Key='testing.json', Body=json.dumps(myDictionary))
     # s3.upload_file('testing.json','desmondchongsoonchuen',f)
