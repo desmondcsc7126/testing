@@ -40,7 +40,7 @@ bucketname = 'desmondchongsoonchuen'
 
 @auth.route('/registration',methods = ['POST', 'GET'])
 def register():
-    return render_template('registration.html', myData = "2nd")
+    return render_template('registration.html', myData = "1st")
 
 @auth.route('/registerUser',methods = ['POST','GET'])
 def registerUser():
